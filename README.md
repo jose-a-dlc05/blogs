@@ -1,0 +1,13 @@
+Topics:
+- How the Internet works
+- How the browser renders a webpage
+- How JavaScript engines work
+- How React works (benefits of components, Virtual DOM, reconciliation)
+- How programming languages are parsed and executed (tokenization, lexical analysis, ASTs, transformation, generation)
+- How front end metaframeworks work (e.g. Next.js, Docusaurus)
+- What goes into popular full stack web frameworks (e.g. Rails, Django)
+- The various rendering paradigms (CSR, SSR, SSG, etc) and when to use which
+- How typechecking works
+- How linting and formatting works
+- Various components in distributed systems and what they are good for
+- How databases work
