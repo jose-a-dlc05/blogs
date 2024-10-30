@@ -1,0 +1,24 @@
+Today I learned about how JavaScript executes code in the most simple way. Shout out to Frontend Masters for JavaScript: The Hard Parts, v2. 
+
+I'll go over the three topics that I learned:
+- Thread of Execution
+- Memory
+- Call Stack
+
+In the simplest way possible, JavaScript does two things:
+1) It goes through code line by line sequentially
+2) It saves things through memory
+
+Here's what I mean. How would JavaScript execute the following:
+
+const num = 2;
+function doubleNumber(number) {
+    return num * num;
+}
+const result = doubleNumber(num);
+const secondResult = doubleNumber(5);
+
+Let's go through this by order:
+
+Define:
+- Execution Context
